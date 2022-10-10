@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\tobiasb\Documents\GitHub\SUSCryptoTracking\CryptoTracker\CryptoTracker\obj\Debug\
+C:\Users\tobiasb\Documents\GitHub\SUSCryptoTracking\CryptoTracker\CryptoTracker\obj\Release\
 CryptoTracker
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\tobiasb\Documents\GitHub\SUSCryptoTracking\CryptoTracker\CryptoTracker\App.xaml
 11151548125
 
