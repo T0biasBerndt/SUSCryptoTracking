@@ -1,0 +1,10 @@
+CREATE TABLE `tblcryptoprices` (
+  `idcrypto` int(11) NOT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  `symbol` varchar(45) DEFAULT NULL,
+  `currency` varchar(45) DEFAULT NULL,
+  `price` varchar(45) DEFAULT NULL,
+  `marketcap` varchar(45) DEFAULT NULL,
+  `lastupdated` datetime DEFAULT NULL,
+  PRIMARY KEY (`idcrypto`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
