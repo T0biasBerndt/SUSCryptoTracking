@@ -7,12 +7,15 @@
         xmlns:vm="clr-namespace:CryptoTracker.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="650">
+    <Window.DataContext>
+        <vm:MainWindowViewModel></vm:MainWindowViewModel>
+    </Window.DataContext>
     <Grid>
         <Label Content="Create/edit Dashboards" HorizontalAlignment="Left" Height="50" Margin="10,10,0,0" VerticalAlignment="Top" Width="300" FontSize="25"/>
-        <TextBox HorizontalAlignment="Left" Height="30" Margin="10,96,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="222"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="10,96,0,0" TextWrapping="Wrap" Text="{Binding DashboardName}" VerticalAlignment="Top" Width="222"/>
         <Label Content="Name" HorizontalAlignment="Left" Height="32" Margin="10,64,0,0" VerticalAlignment="Top" Width="175"/>
         <Label Content="Select coin" HorizontalAlignment="Left" Height="32" Margin="10,126,0,0" VerticalAlignment="Top" Width="181"/>
-        <ComboBox HorizontalAlignment="Left" Height="30" Margin="10,158,0,0" VerticalAlignment="Top" Width="222"/>
+        <ComboBox HorizontalAlignment="Left" Height="30" Margin="10,158,0,0" VerticalAlignment="Top" Width="222" SelectionChanged="ComboBox_SelectionChanged" />
         <Label Content="Select currency" HorizontalAlignment="Left" Height="32" Margin="10,190,0,0" VerticalAlignment="Top" Width="181"/>
         <ComboBox HorizontalAlignment="Left" Height="30" Margin="10,222,0,0" VerticalAlignment="Top" Width="222"/>
         <CheckBox Content="New Profile" HorizontalAlignment="Left" Height="22" Margin="10,257,0,0" VerticalAlignment="Top" Width="135"/>
@@ -25,7 +28,6 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <Button Content="Open" HorizontalAlignment="Left" Height="29" Margin="540,284,0,0" VerticalAlignment="Top" Width="82"/>
+        <Button Content="Open" HorizontalAlignment="Left" Height="29" Margin="540,282,0,0" VerticalAlignment="Top" Width="82"/>
     </Grid>
-
 </Window>
