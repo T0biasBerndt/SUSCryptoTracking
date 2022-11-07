@@ -1,0 +1,6 @@
+C:\Users\tobias.berndt\Documents\GitHub\SUSCryptoTracking\CryptoTracker\Model\bin\Debug\Model.dll
+C:\Users\tobias.berndt\Documents\GitHub\SUSCryptoTracking\CryptoTracker\Model\bin\Debug\Model.pdb
+C:\Users\tobias.berndt\Documents\GitHub\SUSCryptoTracking\CryptoTracker\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\tobias.berndt\Documents\GitHub\SUSCryptoTracking\CryptoTracker\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\tobias.berndt\Documents\GitHub\SUSCryptoTracking\CryptoTracker\Model\obj\Debug\Model.dll
+C:\Users\tobias.berndt\Documents\GitHub\SUSCryptoTracking\CryptoTracker\Model\obj\Debug\Model.pdb

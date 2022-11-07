@@ -1,0 +1,6 @@
+C:\Users\tobias.berndt\Documents\GitHub\SUSCryptoTracking\CryptoTracker\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\tobias.berndt\Documents\GitHub\SUSCryptoTracking\CryptoTracker\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\tobias.berndt\Documents\GitHub\SUSCryptoTracking\CryptoTracker\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\tobias.berndt\Documents\GitHub\SUSCryptoTracking\CryptoTracker\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\tobias.berndt\Documents\GitHub\SUSCryptoTracking\CryptoTracker\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\tobias.berndt\Documents\GitHub\SUSCryptoTracking\CryptoTracker\DataAccess\obj\Debug\DataAccess.pdb
