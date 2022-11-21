@@ -16,8 +16,8 @@ namespace DataAccess
         private string uid;
         private string password;
         private string port;
-
-
+        
+        
         public DBConnect()
         {
             Initialize();
