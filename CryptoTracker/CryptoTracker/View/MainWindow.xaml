@@ -12,22 +12,18 @@
     </Window.DataContext>
     <Grid>
         <Label Content="Create/edit Dashboards" HorizontalAlignment="Left" Height="50" Margin="10,10,0,0" VerticalAlignment="Top" Width="300" FontSize="25"/>
-        <TextBox HorizontalAlignment="Left" Height="30" Margin="10,96,0,0" TextWrapping="Wrap" Text="{Binding DashboardName}" VerticalAlignment="Top" Width="222"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="10,96,0,0" TextWrapping="Wrap" Text="{Binding DashboardName}" VerticalAlignment="Top" Width="300"/>
         <Label Content="Name" HorizontalAlignment="Left" Height="32" Margin="10,64,0,0" VerticalAlignment="Top" Width="175"/>
         <Label Content="Select coin" HorizontalAlignment="Left" Height="32" Margin="10,126,0,0" VerticalAlignment="Top" Width="181"/>
-        <ComboBox HorizontalAlignment="Left" Height="30" Margin="10,158,0,0" VerticalAlignment="Top" Width="222" SelectedValue="{Binding SelectedCoin}" />
+        <ComboBox HorizontalAlignment="Left" Height="30" Margin="10,158,0,0" VerticalAlignment="Top" Width="300" SelectedValue="{Binding SelectedCoin}" />
         <Label Content="Select currency" HorizontalAlignment="Left" Height="32" Margin="10,190,0,0" VerticalAlignment="Top" Width="181"/>
-        <ComboBox HorizontalAlignment="Left" Height="30" Margin="10,222,0,0" VerticalAlignment="Top" Width="222" SelectedValue="{Binding SelectedCurrency}"/>
-        <CheckBox Content="New Profile" HorizontalAlignment="Left" Height="22" Margin="10,257,0,0" VerticalAlignment="Top" Width="135"  />
-        <Button Content="Save" HorizontalAlignment="Left" Height="29" Margin="150,282,0,0" VerticalAlignment="Top" Width="82"/>
+        <ComboBox HorizontalAlignment="Left" Height="30" Margin="10,222,0,0" VerticalAlignment="Top" Width="300" SelectedValue="{Binding SelectedCurrency}"/>
+        <CheckBox Content="New Profile" HorizontalAlignment="Left" Height="22" Margin="10,257,0,0" VerticalAlignment="Top" Width="135" IsChecked="{Binding IsNewDashboard}"  />
+        <Button Content="Save" HorizontalAlignment="Left" Height="29" Margin="228,282,0,0" VerticalAlignment="Top" Width="82" Click="Button_Click" Command="{Binding SaveProfile}"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="215" Margin="320,64,0,0" VerticalAlignment="Top" Width="1"/>
-        <ListView HorizontalAlignment="Left" Height="215" Margin="338,64,0,0" VerticalAlignment="Top" Width="284">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn/>
-                </GridView>
-            </ListView.View>
-        </ListView>
-        <Button Content="Open" HorizontalAlignment="Left" Height="29" Margin="540,282,0,0" VerticalAlignment="Top" Width="82"/>
+
+        <Button Content="Open" HorizontalAlignment="Left" Height="29" Margin="540,282,0,0" VerticalAlignment="Top" Width="82" Command="{Binding OpenDashboard}" Click="Button_Click_1"/>
+        <ListBox HorizontalAlignment="Left" Height="213" VerticalAlignment="Top" Width="288" Margin="334,64,0,0" SelectedItem="{Binding Selectedprofile}" ItemsSource="{Binding pr} ">
+        </ListBox>
     </Grid>
 </Window>
