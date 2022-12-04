@@ -17,7 +17,7 @@ namespace Model
         private double _currentPrice;
 
 
-        public double ChancgedToday
+        public double ChangedToday
         {
             get { return _changeToday; }
             set { _changeToday = value ; }//rest zugriff wenn fertig

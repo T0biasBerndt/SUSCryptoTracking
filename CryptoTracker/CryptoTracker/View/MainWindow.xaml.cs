@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.IO;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -28,7 +29,8 @@ namespace CryptoTracker.View
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            
+            
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -38,6 +40,10 @@ namespace CryptoTracker.View
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            Window1 window1 = new Window1();
+            window1.Show();
+
+            
 
         }
     }

@@ -6,11 +6,22 @@
         xmlns:local="clr-namespace:CryptoTracker.View"
         xmlns:vm="clr-namespace:CryptoTracker.ViewModel"
         mc:Ignorable="d"
-        Title="Window1" Height="150" Width="267.156">
+        Title="Cryptocurrency Info" Height="180" Width="350" ResizeMode="NoResize">
     <Window.DataContext>
         <vm:MainWindowViewModel></vm:MainWindowViewModel>
     </Window.DataContext>
     <Grid>
+
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="50,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="100,10,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <Label Content="Symbol:" HorizontalAlignment="Left" Margin="43,40,0,0" VerticalAlignment="Top"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="100,40,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <Label Content="Price:" HorizontalAlignment="Left" Margin="57,70,0,0" VerticalAlignment="Top"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="100,70,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <Label Content="24h-change:" HorizontalAlignment="Left" Margin="20,100,0,0" VerticalAlignment="Top"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="250,100,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Get BTC" HorizontalAlignment="Left" Margin="250,60,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
 
     </Grid>
 </Window>
